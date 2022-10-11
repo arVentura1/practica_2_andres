@@ -1069,6 +1069,8 @@ body {
     height: 1128px;
     -o-object-fit: cover;
        object-fit: cover;
+    -o-object-position: 1px center;
+       object-position: 1px center;
   }
   .fotogr {
     display: none;
