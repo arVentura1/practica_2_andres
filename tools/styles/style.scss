@@ -617,7 +617,7 @@ body {
     border: 1px solid $thinGreenBorderDark;
     background-color: $featureBackgroundDark;
     box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
-}  
+} 
 
 .laBorders-dark {
     border: 2px solid $thickGreenBorderDark;
@@ -715,50 +715,6 @@ body {
 
     .listFooter2 {
         justify-content: flex-start;
-    }
-
-    .body-dark {
-        background-color: $backgroundDark;
-    }
-
-    .tag-dark {
-        color: $light;
-    }
-
-    .gTag-dark {
-        color: $grey;
-    }
-
-    .greenBorders-dark {
-        border: 1px solid $thinGreenBorderDark;
-        background-color: $featureBackgroundDark;
-        box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
-    }
-
-    .blueBorders-dark {
-        background-color: $featureBackgroundDark;
-        border: 1px solid $communityCardDark;
-    }
-
-    .laBorders-dark {
-        border: 2px solid $thickGreenBorderDark;
-        background-color: $backgroundDark;
-    }
-
-    .bigFooter-dark {
-        background-color: $backgroundDark;
-    }
-
-    .footer1-dark {
-        background-color: $featureBackgroundDark;
-    }
-
-    .lf1Element-dark a {
-        color: $light;
-    }
-
-    .footer2-dark {
-        background-color: $footer2Bg;
     }
 }
     
@@ -970,52 +926,6 @@ body {
     .innerFooter2 {
         padding: 0 2%;
     }
-
-    /*
-    .body-dark {
-        background-color: $backgroundDark;
-    }
-
-    .tag-dark {
-        color: $light;
-    }
-
-    .gTag-dark {
-        color: $grey;
-    }
-
-    .blueBorders-dark {
-        background-color: $featureBackgroundDark;
-        border: 1px solid $communityCardDark;
-    }
-
-    .greenBorders-dark {
-        border: 1px solid $thinGreenBorderDark;
-        background-color: $featureBackgroundDark;
-        box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
-    } 
-
-    .laBorders-dark {
-        border: 2px solid $thickGreenBorderDark;
-        background-color: $backgroundDark;
-    }
-
-    .bigFooter-dark {
-        background-color: $backgroundDark;
-    }
-
-    .footer1-dark {
-        background-color: $featureBackgroundDark;
-    }
-
-    .lf1Element-dark a {
-        color: $light;
-    }
-
-    .footer2-dark {
-        background-color: $footer2Bg;
-    }
-    */
 }
 
 @media only screen and (min-width: $sizeBiggerDesktop) {
@@ -1099,9 +1009,9 @@ body {
         }
     }
 
-    .texto {
+    //.texto {
         //margin-left: 1rem;
-    }
+    //}
 
     .startBuilding {
         margin: 0;
@@ -1193,54 +1103,8 @@ body {
         padding: 0;
     }
 
-    /*
-    .body-dark {
-        background-color: $backgroundDark;
-    }
-
-    .tag-dark {
-        color: $light;
-    }
-
-    .gTag-dark {
-        color: $grey;
-    }
-
-    .blueBorders-dark {
-        background-color: $featureBackgroundDark;
-        border: 1px solid $communityCardDark;
-    }
-
-    .greenBorders-dark {
-        border: 1px solid $thinGreenBorderDark;
-        background-color: $featureBackgroundDark;
-        box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
-    } 
     .biggerSearch-dark {
         border: 1px solid $thinGreenBorderDark;
         background-color: $featureBackgroundDark;
     }
-
-    .laBorders-dark {
-        border: 2px solid $thickGreenBorderDark;
-        background-color: $backgroundDark;
-    }
-
-    .bigFooter-dark {
-        background-color: $backgroundDark;
-    }
-
-    .footer1-dark {
-        background-color: $featureBackgroundDark;
-    }
-
-    .lf1Element-dark a {
-        color: $light;
-    }
-    
-    .footer2-dark {
-        background-color: $footer2Bg;
-    }
-    */
-
 }

@@ -778,41 +778,6 @@ body {
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
-  .body-dark {
-    background-color: #0d1213;
-  }
-  .tag-dark {
-    color: #ffffff;
-  }
-  .gTag-dark {
-    color: gray;
-  }
-  .greenBorders-dark {
-    border: 1px solid #24393d;
-    background-color: #151d1e;
-    -webkit-box-shadow: #151d1e 0px 1px 0px 2px;
-            box-shadow: #151d1e 0px 1px 0px 2px;
-  }
-  .blueBorders-dark {
-    background-color: #151d1e;
-    border: 1px solid #9db8f7;
-  }
-  .laBorders-dark {
-    border: 2px solid #8cfb80;
-    background-color: #0d1213;
-  }
-  .bigFooter-dark {
-    background-color: #0d1213;
-  }
-  .footer1-dark {
-    background-color: #151d1e;
-  }
-  .lf1Element-dark a {
-    color: #ffffff;
-  }
-  .footer2-dark {
-    background-color: #20292b;
-  }
 }
 
 @media only screen and (min-width: 960px) {
@@ -1001,51 +966,6 @@ body {
   .innerFooter2 {
     padding: 0 2%;
   }
-  /*
-    .body-dark {
-        background-color: $backgroundDark;
-    }
-
-    .tag-dark {
-        color: $light;
-    }
-
-    .gTag-dark {
-        color: $grey;
-    }
-
-    .blueBorders-dark {
-        background-color: $featureBackgroundDark;
-        border: 1px solid $communityCardDark;
-    }
-
-    .greenBorders-dark {
-        border: 1px solid $thinGreenBorderDark;
-        background-color: $featureBackgroundDark;
-        box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
-    } 
-
-    .laBorders-dark {
-        border: 2px solid $thickGreenBorderDark;
-        background-color: $backgroundDark;
-    }
-
-    .bigFooter-dark {
-        background-color: $backgroundDark;
-    }
-
-    .footer1-dark {
-        background-color: $featureBackgroundDark;
-    }
-
-    .lf1Element-dark a {
-        color: $light;
-    }
-
-    .footer2-dark {
-        background-color: $footer2Bg;
-    }
-    */
 }
 
 @media only screen and (min-width: 1281px) {
@@ -1197,54 +1117,9 @@ body {
   .innerFooter2 {
     padding: 0;
   }
-  /*
-    .body-dark {
-        background-color: $backgroundDark;
-    }
-
-    .tag-dark {
-        color: $light;
-    }
-
-    .gTag-dark {
-        color: $grey;
-    }
-
-    .blueBorders-dark {
-        background-color: $featureBackgroundDark;
-        border: 1px solid $communityCardDark;
-    }
-
-    .greenBorders-dark {
-        border: 1px solid $thinGreenBorderDark;
-        background-color: $featureBackgroundDark;
-        box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
-    } 
-    .biggerSearch-dark {
-        border: 1px solid $thinGreenBorderDark;
-        background-color: $featureBackgroundDark;
-    }
-
-    .laBorders-dark {
-        border: 2px solid $thickGreenBorderDark;
-        background-color: $backgroundDark;
-    }
-
-    .bigFooter-dark {
-        background-color: $backgroundDark;
-    }
-
-    .footer1-dark {
-        background-color: $featureBackgroundDark;
-    }
-
-    .lf1Element-dark a {
-        color: $light;
-    }
-    
-    .footer2-dark {
-        background-color: $footer2Bg;
-    }
-    */
+  .biggerSearch-dark {
+    border: 1px solid #24393d;
+    background-color: #151d1e;
+  }
 }
 /*# sourceMappingURL=style.css.map */
