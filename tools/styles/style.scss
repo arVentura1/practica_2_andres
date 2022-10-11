@@ -64,13 +64,11 @@ body {
 }
 .bigHeader-dark {
     background-color: $backgroundDark;
-    //transition: 0.25s ease-in-out;
 }
 
 .marketing-nav-wrapper {
     //max-width: none;
     margin: 0 auto;
-    //transition: 0.25s ease-in-out;
 }
 .marketing-nav {
     height: 48px;
@@ -82,12 +80,10 @@ body {
     padding-right: 4%;
     position: relative;
     clear: both;
-    //transition: 0.25s ease-in-out;
 }
 .marketing-nav-mobile {
     display: flex;
     align-items: center;
-    //transition: 0.25s ease-in-out;
 }   
 .marketing-hamburger-button {
     margin-right: 16px;
@@ -96,20 +92,11 @@ body {
     border-radius: 0;
     cursor: pointer;
     color: $ultraLightGrey;
-    //transition: 0.25s ease-in-out;
 }
-//.marketing-hamburger-button-dark {
-//    color: $light;
-//}
-
 .marketing-nav-container {
     width: 100%;
     display: flex;
-    //transition: 0.25s ease-in-out;
 }
-//.marketing-nav-container-dark a{
-//    color: $light;
-//}
 .marketing-nav-items,
 .searchBar,
 .marketing-nav-expanded {
@@ -120,23 +107,18 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    //transition: 0.25s ease-in-out;
 }
-
 .search-nav {
     margin-left: auto;
-    //transition: 0.25s ease-in-out;
 }
 .navButton {
     color: $ultraLightGrey;
     background-color: inherit;
     border: none;
     box-shadow: none;
-    //transition: 0.25s ease-in-out;
 }
 .theme-toggle-container {
     position: relative;
-    //transition: 0.25s ease-in-out;
 }
 .toggle-theme-light {
     background: none;
@@ -147,9 +129,7 @@ body {
     display: inline-block;
     cursor: pointer;
     color: inherit;
-    //transition: 0.25s ease-in-out;
 }
-
 //MAIN
 .bigMain {
     //con el position:sticky, margin-top: 3rem; no es necesario (trabajo que te ahorras)
@@ -160,13 +140,11 @@ body {
 .bigMain-dark {
     background-color: $backgroundDark;
     color: $light;
-    //transition: 1s ease-in-out;
 }
     
 //buildAnything section
 .buildAnything {
     margin-bottom: 3rem;
-    //transition: 0.25s ease-in-out;
 }
     
 //fcba section
@@ -174,11 +152,8 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 4rem;
-    //transition: 0.25s ease-in-out;
 }
-
 .texto1 {
-    //transition: 0.25s ease-in-out;
     max-width: 640px;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -186,7 +161,6 @@ body {
     margin-left: auto;
     margin-bottom: 1.5rem;
     & h1 {
-        //transition: 0.25s ease-in-out;
         margin: 0;
         margin-bottom: 1rem;
         font-weight: 800;
@@ -195,7 +169,6 @@ body {
         line-height: 1.25;
     }
     & p {
-        //transition: 0.25s ease-in-out;
         font-weight: 400;
         font-size: 1.125rem;
         color: $midGrey;
@@ -204,18 +177,15 @@ body {
 .texto1-dark h1,
 .texto1-dark p {
     color: $light;
-    //transition: 0.25s ease-in-out;
 }
     
 .fotoG {
-    //transition: 0.25s ease-in-out;
     width: 100%;
     height: 250px;
     object-fit: cover;
 }
     
 .contentBuildAnything {
-    //transition: 0.25s ease-in-out;
     padding-left: 1rem;
     padding-right: 1rem;
     margin-top: 1.75rem;
@@ -223,26 +193,22 @@ body {
 
 //div "texto"
 .texto {
-    //transition: 0.25s ease-in-out;
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.75rem;
     font-weight: 400;
     & h3 {
-        //transition: 0.25s ease-in-out;
         margin: 0.75rem 0 0.75rem;
         font-weight: 600;
         font-size: 1.1rem;
         color: $dark;
     }
     & span {
-        //transition: 0.25s ease-in-out;
         font-size: 1rem;
         color: $midGrey;
     }
     & a {
-        //transition: 0.25s ease-in-out;
         color: $midGrey;
     }
 }
@@ -250,15 +216,12 @@ body {
 .texto-dark h3,
 .texto-dark span {
     color: $light;
-    //transition: 0.25s ease-in-out;
 }
 .texto-dark a {
     color: $blueForLinks;
-    //transition: 0.25s ease-in-out;
 } 
     
 .startBuilding {
-    //transition: 0.25s ease-in-out;
     padding-left: 1rem;
     padding-right: 1rem;
     margin-bottom: 50px;
@@ -266,12 +229,10 @@ body {
     
 //sbContainer
 .sbContainer {
-    //transition: 0.25s ease-in-out;
     max-width: 640px;
     margin-right: auto;
     margin-left: auto;
     & h3 {
-        //transition: 0.25s ease-in-out;
         font-weight: 550;
         margin-bottom: 0.75rem;
     }
@@ -279,7 +240,6 @@ body {
     
 //features
 .features {
-    //transition: 0.25s ease-in-out;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1.25rem;
@@ -287,7 +247,6 @@ body {
     
 //feature
 .feature {
-    //transition: 0.25s ease-in-out;
     max-width: 100%;
     height: 100%;
     background-color: $ultraLightWhite;
@@ -295,7 +254,6 @@ body {
     //sombras apps, themes, storefronts, marketplaces
     box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 0px 2px;
     & a {
-        //transition: 0.25s ease-in-out;
         padding: 0.75rem;
         text-decoration: none;
         font-weight: 600;
@@ -310,14 +268,12 @@ body {
 
 //
 .featureImg {
-    //transition: 0.25s ease-in-out;
     width: 48px;
     height: 48px;
     object-fit: cover;
 }
 //
 .featureText {
-    //transition: 0.25s ease-in-out;
     align-self: center;
     margin-left: 15px;
 }
@@ -328,7 +284,6 @@ body {
     
 //launchApps section
 .launchApps {
-    //transition: 0.25s ease-in-out;
     color: $dark;
     background-color: $ultraLightGreen;
     margin: 0;
@@ -340,7 +295,6 @@ body {
     
 //container de Launch Apps
 .laContainer {
-    //transition: 0.25s ease-in-out;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -349,9 +303,7 @@ body {
     
 //section laContent
 .laContent {
-    //transition: 0.25s ease-in-out;
     & h2 {
-        //transition: 0.25s ease-in-out;
         line-height: 28px;
         font-weight: 600;
         margin-top: 0;
@@ -359,37 +311,30 @@ body {
     }
 }
 .laText {
-    //transition: 0.25s ease-in-out;
     font-weight: 400;
     margin-bottom: 2rem;
     & h3 {
-        //transition: 0.25s ease-in-out;
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         font-weight: 600;
     }
     & p {
-        //transition: 0.25s ease-in-out;
         margin-top: 0;
         color: $ultraLightGrey;
     }
     & a {
-        //transition: 0.25s ease-in-out;
         color: $ultraLightGrey;
     }
 }
 .laText-dark p {
     color: $light;
-    //transition: 0.25s ease-in-out;
 } 
 .laText-dark a {
     color: $blueForLinks;
-    //transition: 0.25s ease-in-out;
 } 
     
 //laRevenue section
 .laRevenue {
-    //transition: 0.25s ease-in-out;
     max-width: 100%;
     margin: 0 0 1rem;
     background-color: $ultraLightWhite;
@@ -398,7 +343,6 @@ body {
 }
     
 .revContainer {
-    //transition: 0.25s ease-in-out;
     max-width: 100%;
     padding: 1.6rem 2rem;
     display: grid;
@@ -407,7 +351,6 @@ body {
     line-height: 19px;
 }
 .revSection {
-    //transition: 0.25s ease-in-out;
     display: grid;
     grid-template-columns: 3rem 1fr;
     gap: 1.5rem;
@@ -415,30 +358,25 @@ body {
     margin-bottom: 0;
 }
 .revenueImg {
-    //transition: 0.25s ease-in-out;
     width: 48px;
     height: 48px;
     object-fit: cover;
 }
 //
 .info {
-    //transition: 0.25s ease-in-out;
     margin-bottom: 0;
     display: flex;
     flex-direction: column;
 }
 .normalText {
-    //transition: 0.25s ease-in-out;
     font-size: 0.9em;
     font-weight: 300;
 }
 .boldText {
-    //transition: 0.25s ease-in-out;
     font-size: 1em;
     font-weight: 600;
 }
 .revAppIcon>.boldText {
-    //transition: 0.25s ease-in-out;
     float: right;
     //duda duda duda duda duda duda duda duda duda duda
     //es viable usar cifras negativas?
@@ -455,7 +393,6 @@ body {
     
 //communityContainer
 .communityContainer {
-    //transition: 0.25s ease-in-out;
     margin-left: auto;
     margin-right: auto;
     max-width: 640px;
@@ -464,7 +401,6 @@ body {
     
 //innerCommunity
 .innerCommunity {
-    //transition: 0.25s ease-in-out;
     margin: 0 auto;
     padding: 0;
     display: grid;
@@ -475,7 +411,6 @@ body {
     
 //innerFirstContent
 .innerFirstContent {
-    //transition: 0.25s ease-in-out;
     max-width: 100%;
     background-color: $ultraLightBlue;
     //altura cuadrito join a community of builders
@@ -485,20 +420,16 @@ body {
 }
 
 .ifc {
-    //transition: 0.25s ease-in-out;
     padding: 0 1rem 1rem 0;
 }
 
 //firstFoto
 .firstFoto {
-    //transition: 0.25s ease-in-out;
-    //margin: 0 0.5rem 0.5rem 0;
     width: 161px;
     height: 59px;
 }
 //firstText
 .firstText {
-    //transition: 0.25s ease-in-out;
     color: $dark;
     font-weight: 600;
     font-size: 18px;
@@ -506,7 +437,6 @@ body {
     
 //every content box is inside of an <a> tag
 .contentLink {
-    //transition: 0.25s ease-in-out;
     color: inherit;
     text-decoration: none;
     cursor: pointer;
@@ -514,7 +444,6 @@ body {
 
 //contentBody
 .contentBody {
-    //transition: 0.25s ease-in-out;
     max-width: 100%;
     height: 100%;
     background-color: $ultraLightWhite;
@@ -525,7 +454,6 @@ body {
 
 //innerBody
 .innerBody {
-    //transition: 0.25s ease-in-out;
     padding: 0.75rem;
     display: flex;
     flex-direction: column;
@@ -534,7 +462,6 @@ body {
 
 //fotoC margins
 .fotoC {
-    //transition: 0.25s ease-in-out;
     width: 48px;
     height: 48px;
     object-fit: cover;
@@ -544,24 +471,20 @@ body {
 
 //contentContainer
 .contentContainer {
-    //transition: 0.25s ease-in-out;
     line-height: 1.3;
 }
 
 .titleCont {
-    //transition: 0.25s ease-in-out;
     margin-bottom: 0.5rem;
 }
 
 //
 .title {
-    //transition: 0.25s ease-in-out;
     color: $dark;
     font-weight: 600;
 }
 
 .innerTitle {
-    //transition: 0.25s ease-in-out;
     //¿¿¿¿¿?????
     //display: flex;
     //flex-wrap: nowrap;
@@ -580,7 +503,6 @@ body {
 }
 
 .description {
-    //transition: 0.25s ease-in-out;
     font-size: 14px;
     color: $midGrey;
 }
@@ -592,7 +514,6 @@ body {
     background-color: $ultraLightWhite;
 }
 .footer1 {
-    //transition: 0.25s ease-in-out;
     //max-width: 1268px;
     background-color: $ultraLightWhite;
     padding-top: 4rem;
@@ -601,14 +522,12 @@ body {
 }
 //footer1Container
 .footer1Container {
-    //transition: 0.25s ease-in-out;
     padding-left: 2%;
     padding-right: 2%;
 }
     
 //footer2
 .footer2 {
-    //transition: 0.25s ease-in-out;
     position: relative;
     background-color: #f6f6f7;
     margin: 0;
@@ -616,7 +535,6 @@ body {
 }
 //footer2Container
 .footer2Container {
-    //transition: 0.25s ease-in-out;
     //max-width: 1268px;
     display: flex;
     flex-wrap: wrap;
@@ -624,18 +542,15 @@ body {
     
 //innerFooter1
 .innerFooter1 {
-    //transition: 0.25s ease-in-out;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
     
 .sectionF1 {
-    //transition: 0.25s ease-in-out;
     margin-bottom: 10px;
     padding-left: 1rem;
     padding-right: 1rem;
     & h3 {
-        //transition: 0.25s ease-in-out;
         margin-top: 0;
         font-size: 0.75rem;
         font-weight: 550;
@@ -644,19 +559,16 @@ body {
     
 //listF1 (ul elements)
 .listF1 {
-    //transition: 0.25s ease-in-out;
     padding: 0;
     list-style-type: none;
 }
     
 //lf1Element (li elements)
 .lf1Element {
-    //transition: 0.25s ease-in-out;
     padding-top: 3px;
     padding-bottom: 4px;
 }
 .lf1Element a {
-    //transition: 0.25s ease-in-out;
     text-decoration: none;
     color: $midGrey;
     font-size: 14px;
@@ -665,13 +577,11 @@ body {
     
 //lf1Links -> <a> tag for social media icons
 .lf1Link {
-    //transition: 0.25s ease-in-out;
     display: flex;
     align-items: center;
 }
 //social media icons
 .socialMediaIcon {
-    //transition: 0.25s ease-in-out;
     margin-right: 0.5rem;
     //usando el boxicons <i> no sirve ponerle width y height
     width: 15px;
@@ -683,7 +593,6 @@ body {
     
 //innerFooter2
 .innerFooter2 {
-    //transition: 0.25s ease-in-out;
     position: relative;
     width: 100%;
     padding: 0 1rem;
@@ -691,13 +600,11 @@ body {
     
 //list2Container
 .list2Container {
-    //transition: 0.25s ease-in-out;
     padding: 2rem 0 1.25rem;
 }
     
 //listFooter2
 .listFooter2 {
-    //transition: 0.25s ease-in-out;
     width: 100%;
     list-style-type: none;
     position: relative;
@@ -710,14 +617,12 @@ body {
     
 //list2Element
 .lf2Element {
-    //transition: 0.25s ease-in-out;
     padding: 0;
     padding-bottom: 0.5rem;
     padding-right: 1rem;
     display: flex;
     justify-content: space-between;
     & a {
-        //transition: 0.25s ease-in-out;
         text-decoration: none;
         color: #6d7175;
         font-size: 14px;
@@ -728,47 +633,37 @@ body {
 //parece que es lo suyo ponerlo al final 
 .body-dark {
     background-color: $backgroundDark;
-    //transition: 0.25s ease-in-out;
 }
 .tag-dark {
     color: $light;
-    //transition: 0.25s ease-in-out;
 }
 .gTag-dark {
     color: $grey;
-    //transition: 0.25s ease-in-out;
 }
 .blueBorders-dark {
     background-color: $featureBackgroundDark;
     border: 1px solid $communityCardDark;
-    //transition: 0.25s ease-in-out;
 }
 .greenBorders-dark {
     border: 1px solid $thinGreenBorderDark;
     background-color: $featureBackgroundDark;
     box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
-    //transition: 0.25s ease-in-out;
 }   
 .laBorders-dark {
     border: 2px solid $thickGreenBorderDark;
     background-color: $backgroundDark;
-    //transition: 0.25s ease-in-out;
 }
 .bigFooter-dark {
     background-color: $backgroundDark;
-    //transition: 0.25s ease-in-out;
 }
 .footer1-dark {
     background-color: $featureBackgroundDark;
-    //transition: 0.25s ease-in-out;
 }
 .lf1Element-dark a {
     color: $light;
-    //transition: 0.25s ease-in-out;
 }
 .footer2-dark {
     background-color: $footer2Bg;
-    //transition: 0.25s ease-in-out;
 }
     //
     //MediaQueries
@@ -790,122 +685,98 @@ body {
     .texto1,
     .contentBuildAnything,
     .startBuilding {
-        //transition: 0.25s ease-in-out;
         margin: 0 1.25rem 3rem;
         padding: 0 2rem;
     }
     .texto1 {
-        //transition: 0.25s ease-in-out;
         margin: 0 auto;
         & p {
-            //transition: 0.25s ease-in-out;
             margin-bottom: 3rem;
         }
     }
     .contentBuildAnything {
-        //transition: 0.25s ease-in-out;
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
     .fotoG {
-        //transition: 0.25s ease-in-out;
         width: 100%;
         height: 360px;
     }
     //features
     .features {
-        //transition: 0.25s ease-in-out;
         grid-template-columns: repeat(2, 1fr);
     }
     //main->launchApps section
     .launchApps {
-        //transition: 0.25s ease-in-out;
         margin: 0 1.25rem;
         padding: 4rem 2rem;
     }
     //main->laRevenue
     .revContainer {
-        //transition: 0.25s ease-in-out;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
     //main->community
     .community {
-        //transition: 0.25s ease-in-out;
         padding: 0 2rem 3.75rem;
         margin: 0 1.25rem;
     }
     //innerCommunity
     .innerCommunity {
-        //transition: 0.25s ease-in-out;
         grid-template-columns: repeat(2, 1fr);
     }
     //footer
     .innerFooter1 {
-        //transition: 0.25s ease-in-out;
         grid-template-columns: repeat(3, 1fr);
     }
     
     //innerFooter2
     .innerFooter2 {
-        //transition: 0.25s ease-in-out;
         padding: 0 1.75rem;
     }
     //list2Container
     .list2Container {
-        //transition: 0.25s ease-in-out;
         padding: 1.25rem 0 1.25rem;
     }
     //listFooter2
     .listFooter2 {
-        //transition: 0.25s ease-in-out;
         justify-content: flex-start;
     }
 
     //dark variables
     .body-dark {
         background-color: $backgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .tag-dark {
         color: $light;
-        //transition: 0.25s ease-in-out;
     }
     .gTag-dark {
         color: $grey;
-        //transition: 0.25s ease-in-out;
     }
     .greenBorders-dark {
         border: 1px solid $thinGreenBorderDark;
         background-color: $featureBackgroundDark;
         box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
-        //transition: 0.25s ease-in-out;
     }
     .blueBorders-dark {
         background-color: $featureBackgroundDark;
         border: 1px solid $communityCardDark;
-        //transition: 0.25s ease-in-out;
     }
     .laBorders-dark {
         border: 2px solid $thickGreenBorderDark;
         background-color: $backgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .bigFooter-dark {
         background-color: $backgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .footer1-dark {
         background-color: $featureBackgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .lf1Element-dark a {
         color: $light;
-        //transition: 0.25s ease-in-out;
     }
     .footer2-dark {
         background-color: $footer2Bg;
-        //transition: 0.25s ease-in-out;
     }
 }
     
@@ -920,23 +791,19 @@ body {
     .marketing-nav-items,
     .searchBar,
     .marketing-nav-expanded {
-        //transition: 0.25s ease-in-out;
         display: block;
     }
 
     .marketing-nav {
-        //transition: 0.25s ease-in-out;
         font-size: 0.875rem;
         padding: 0 1rem;
     }
 
     .marketing-nav-logo {
-        //transition: 0.25s ease-in-out;
         margin-top: 3px;
     }
 
     .marketing-nav-container {
-        //transition: 0.25s ease-in-out;
         height: 48px;
         max-width: calc(1268px + 1rem);
         align-items: center;
@@ -946,13 +813,11 @@ body {
     }
 
     .marketing-nav-items {
-        //transition: 0.25s ease-in-out;
         display: flex;
         margin: 0;
         padding: 0;
     }
     .marketing-nav-item {
-        //transition: 0.25s ease-in-out;
         margin-left: 0.5rem;
         padding-right: 0.75rem;
         text-decoration: none;
@@ -960,11 +825,9 @@ body {
     }
     .marketing-nav-item-dark {
         color: $light;
-        //transition: 0.25s ease-in-out;
     }
 
     .bigSearchButton {
-        //transition: 0.25s ease-in-out;
         background: none;
         margin-right: 0.875rem;
         margin-top: 7px;
@@ -973,7 +836,6 @@ body {
         border-radius: 0;
         cursor: pointer;
         color: $midGrey;
-        //
     }
 
     .bigSearchButtonText,
@@ -982,31 +844,26 @@ body {
     }
 
     .marketing-nav-expanded {
-        //transition: 0.25s ease-in-out;
         padding-left: 0;
         list-style-type: none;
         display: flex;
         align-items: center;
     }
     .marketing-nav-expanded a {
-        //transition: 0.25s ease-in-out;
         color: $midGrey;
         text-decoration: none;
         padding: 0.5rem;
     }
     .marketing-nav-expanded-dark a {
         color: $light;
-        //transition: 0.25s ease-in-out;
     }
 
     .theme-toggle-container {
-        //transition: 0.25s ease-in-out;
         padding-left: 0.5rem;
         padding-right: 0.75rem;
     }
 
     .toggle-theme-light {
-        //transition: 0.25s ease-in-out;
         margin: 0.5rem;
         width: 20px;
         height: 20px;
@@ -1016,7 +873,6 @@ body {
         background-position: center;
     }
     .toggle-theme-dark {
-        //transition: 0.25s ease-in-out;
         margin: 0.5rem;
         width: 20px;
         height: 20px;
@@ -1027,7 +883,6 @@ body {
     }
     
     .dropdownButton {
-        //transition: 0.25s ease-in-out;
         margin-left: 0.5rem;
         color: $midGrey;
         background: inherit;
@@ -1038,7 +893,6 @@ body {
     }
     //apunte: los iconos hay que quitar que sean img y ponerlos como iconos
     .dropdownArrow {
-        //transition: 0.25s ease-in-out;
         color: $midGrey;
         margin-left: 1px;
         width: 10px;
@@ -1046,36 +900,29 @@ body {
         object-fit: cover;
     }
     .bxs-down-arrow {
-        //transition: 0.25s ease-in-out;
         font-size: 0.75rem;
     }
     .dropdownArrow-dark {
         color: $light;
-        //transition: 0.25s ease-in-out;
     }
 
     //main
     .texto1 {
-        //transition: 0.25s ease-in-out;
         margin: 0 auto;    
         & h1 {
-            //transition: 0.25s ease-in-out;
             margin-bottom: 1.5rem;
             font-size: 3rem;
         }
     }
     .contentBuildAnything {
-        //transition: 0.25s ease-in-out;
         margin: 0;
         margin-top: 1rem;
         padding: 0 2rem;
     }
     .texto h3 {
-        //transition: 0.25s ease-in-out;
         font-size: 1.25rem;
     }
     .startBuilding {
-        //transition: 0.25s ease-in-out;
         max-width: 640px;
         margin: 0 10rem 3rem;
         margin-left: auto;
@@ -1083,128 +930,100 @@ body {
         padding: 0;
     }
     .features {
-        //transition: 0.25s ease-in-out;
         grid-template-columns: repeat(3, 1fr);
     }
     .launchApps {
-        //transition: 0.25s ease-in-out;
         max-width: 640px;
         max-width: 640px;
         margin: 0 8rem;
         margin-left: auto;
         margin-right: auto;
-        //padding: 0;
-        //margin: 0 8rem;
     }
     .laContent {
-        //transition: 0.25s ease-in-out;
         & h2 {
-            //transition: 0.25s ease-in-out;
             line-height: 1.3;
             font-size: 2rem;
         }
         & h3 {
-            //transition: 0.25s ease-in-out;
             font-size: 1.25rem;
         }
     }
     //footer
     .footer1 {
-        //transition: 0.25s ease-in-out;
         margin: 0 1.25rem;
         padding: 3.4rem 0;
     }
     .footer1Container {
-        //transition: 0.25s ease-in-out;
         padding: 0 1.25rem;
     }
     .innerFooter1 {
-        //transition: 0.25s ease-in-out;
         grid-template-columns: repeat(6, 1fr);        
     }
     .sectionF1 {
-        //transition: 0.25s ease-in-out;
         margin: 0;
         padding: 0;
     }
     .listF1 {
-        //transition: 0.25s ease-in-out;
         padding-right: 1.9rem;
     }
     //
     .footer2 {
-        //transition: 0.25s ease-in-out;
         margin: 0 1.25rem;
     }
     .innerFooter2 {
-        //transition: 0.25s ease-in-out;
         padding: 0 2%;
     }
 
     //dark variables
     .body-dark {
         background-color: $backgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .tag-dark {
         color: $light;
-        //transition: 0.25s ease-in-out;
     }
     .gTag-dark {
         color: $grey;
-        //transition: 0.25s ease-in-out;
     }
     .blueBorders-dark {
         background-color: $featureBackgroundDark;
         border: 1px solid $communityCardDark;
-        //transition: 0.25s ease-in-out;
     }
     .greenBorders-dark {
         border: 1px solid $thinGreenBorderDark;
         background-color: $featureBackgroundDark;
         box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
-        //transition: 0.25s ease-in-out;
     } 
     .laBorders-dark {
         border: 2px solid $thickGreenBorderDark;
         background-color: $backgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .bigFooter-dark {
         background-color: $backgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .footer1-dark {
         background-color: $featureBackgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .lf1Element-dark a {
         color: $light;
-        //transition: 0.25s ease-in-out;
     }
     .footer2-dark {
         background-color: $footer2Bg;
-        //transition: 0.25s ease-in-out;
     }
 }
 
 //Bigger Desktop
 @media only screen and (min-width: $sizeBiggerDesktop) {
     .marketing-nav-container {
-        //transition: 0.25s ease-in-out;
         max-width: calc(1315px + 1rem);
     }
     .searchIcon {
-        //transition: 0.25s ease-in-out;
         display: none;
     }
     .searchBar {
-        //transition: 0.25s ease-in-out;
         display: block;        
     }
 
     .bigSearchButton {
-        //transition: 0.25s ease-in-out;
         margin-top: 2px;
         padding: 0.25rem;
         display: flex;
@@ -1218,25 +1037,21 @@ body {
         outline: inherit;
         //
         & i {
-            //transition: 0.25s ease-in-out;
             margin-top: 5px;
         }
     }
     
     .bigSearchButtonText,
     .slashCont {
-        //transition: 0.25s ease-in-out;
         display: block;
     }
 
     .bigSearchButtonText {
-        //transition: 0.25s ease-in-out;
         padding: 0 2rem 0 0.25rem;
         margin-top: 3px;
         font-size: 14px;
     }
     .slashCont {
-        //transition: 0.25s ease-in-out;
         margin-top: 5px;
         width: 17px;
         height: 17px;
@@ -1245,7 +1060,6 @@ body {
         border-radius: 4px;
     }
     .slashBar {
-        //transition: 0.25s ease-in-out;
         display: block;
         width: 0.1px;
         height: 12px;
@@ -1258,7 +1072,6 @@ body {
     //main
 
     .biggerDesktopAux {
-        //transition: 0.25s ease-in-out;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
@@ -1266,36 +1079,29 @@ body {
         padding: 0;
     }
     .buildAnything {
-        //transition: 0.25s ease-in-out;
         justify-self: end;
         margin-top: 7.5rem;
         //¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿??¿?¿?
         max-width: calc(1268px/2);
     }
     .texto1 {
-        //transition: 0.25s ease-in-out;
         margin-left: 1%;
         & p {
-            //transition: 0.25s ease-in-out;
             margin-bottom: 2rem;
         }
     }
     .texto {
-        //transition: 0.25s ease-in-out;
         margin-left: 1%;
     }
     .startBuilding {
-        //transition: 0.25s ease-in-out;
         margin: 0;
         margin-left: 1%;
         padding: 0 2rem;
     }
     .features {
-        //transition: 0.25s ease-in-out;
         grid-template-columns: repeat(2, 1fr);
     }
     .biggerDesktopImage {
-        //transition: 0.25s ease-in-out;
         justify-self: start;
         display: block;
         //width:100%;
@@ -1303,7 +1109,6 @@ body {
         border: 1px solid red;
     }
     .bigImg {
-        //transition: 0.25s ease-in-out;
         //width:100%;
         //position: absolute;
         //float: right;
@@ -1317,18 +1122,15 @@ body {
         }
     }
     .fotogr {
-        //transition: 0.25s ease-in-out;
         display: none;
     }
     //
     .launchApps {
-        //transition: 0.25s ease-in-out;
         max-width: 100%;
         margin: 0 1.25rem;
         padding: 4rem 2rem;
     }
     .laContainer {
-        //transition: 0.25s ease-in-out;
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
         max-width: 1268px;
@@ -1336,98 +1138,78 @@ body {
         margin-right: auto;
     }
     .laRevenue {
-        //transition: 0.25s ease-in-out;
         width: 70%;
         margin: 0;
         margin-left: auto;
     }
     .revContainer {
-        //transition: 0.25s ease-in-out;
         padding: 4.5rem 5rem;
-        //margin: 0;
         grid-template-columns: repeat(1, 1fr);
     }
     //
     .communityContainer {
-        //transition: 0.25s ease-in-out;
         max-width: 1268px;
         padding-top: 1.5rem;
     }
     .innerCommunity {
-        //transition: 0.25s ease-in-out;
         grid-template-columns: repeat(4, 1fr);
     }
     .firstText {
-        //transition: 0.25s ease-in-out;
         font-size: 20px;
     }
 
     //footer
     .footer2 {
-        //transition: 0.25s ease-in-out;
         border-radius: 0 0 1rem 1rem;
         margin-bottom: 0.25rem;
     }
 
     .footer1Container, .footer2Container {
-        //transition: 0.25s ease-in-out;
         max-width: 1268px;
         margin-right: auto;
         margin-left: auto;
     }
     .innerFooter2 {
-        //transition: 0.25s ease-in-out;
         padding: 0;
     }
 
     //dark variables
     .body-dark {
         background-color: $backgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .tag-dark {
         color: $light;
-        //transition: 0.25s ease-in-out;
     }
     .gTag-dark {
         color: $grey;
-        //transition: 0.25s ease-in-out;
     }
     .blueBorders-dark {
         background-color: $featureBackgroundDark;
         border: 1px solid $communityCardDark;
-        //transition: 0.25s ease-in-out;
     }
     .greenBorders-dark {
         border: 1px solid $thinGreenBorderDark;
         background-color: $featureBackgroundDark;
         box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
-        //transition: 0.25s ease-in-out;
     }  
     .biggerSearch-dark {
         border: 1px solid $thinGreenBorderDark;
         background-color: $featureBackgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .laBorders-dark {
         border: 2px solid $thickGreenBorderDark;
         background-color: $backgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .bigFooter-dark {
         background-color: $backgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .footer1-dark {
         background-color: $featureBackgroundDark;
-        //transition: 0.25s ease-in-out;
     }
     .lf1Element-dark a {
         color: $light;
-        //transition: 0.25s ease-in-out;
     }
     .footer2-dark {
         background-color: $footer2Bg;
-        //transition: 0.25s ease-in-out;
     }
 }
