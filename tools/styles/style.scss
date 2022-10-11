@@ -333,6 +333,18 @@ body {
     line-height: 19px;
 }
 
+.laRevenue-dark {
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+.revContainer-dark {
+    border-radius: 8px;
+    box-shadow: none;
+}
+
 .revSection {
     display: grid;
     grid-template-columns: 3rem 1fr;
@@ -1027,18 +1039,6 @@ body {
     .revContainer {
         padding: 4rem 4rem;
         grid-template-columns: repeat(1, 1fr);
-    }
-    
-    .laRevenue-dark {
-        border-radius: 8px;
-        border: none;
-        box-shadow: none;
-        background: none;
-    }
-
-    .revContainer-dark {
-        border-radius: 8px;
-        box-shadow: none;
     }
 
     .communityContainer {

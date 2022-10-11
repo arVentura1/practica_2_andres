@@ -350,6 +350,20 @@ body {
   line-height: 19px;
 }
 
+.laRevenue-dark {
+  border-radius: 8px;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: none;
+}
+
+.revContainer-dark {
+  border-radius: 8px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .revSection {
   display: -ms-grid;
   display: grid;
@@ -1064,18 +1078,6 @@ body {
     padding: 4rem 4rem;
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
-  }
-  .laRevenue-dark {
-    border-radius: 8px;
-    border: none;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    background: none;
-  }
-  .revContainer-dark {
-    border-radius: 8px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
   }
   .communityContainer {
     max-width: 1268px;
