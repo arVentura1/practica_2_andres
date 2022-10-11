@@ -408,9 +408,18 @@ body {
   font-weight: 600;
 }
 
+.revAppIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .revAppIcon > .boldText {
-  float: right;
-  margin-top: -8px;
+  margin-left: auto;
   font-size: 0.85em;
 }
 

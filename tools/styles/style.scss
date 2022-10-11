@@ -366,11 +366,13 @@ body {
     font-weight: 600;
 }
 
+.revAppIcon {
+   display: flex;
+   flex-direction: column;
+}
+
 .revAppIcon>.boldText {
-    float: right;
-    //duda duda duda duda duda duda duda duda duda duda
-    //es viable usar cifras negativas?
-    margin-top: -8px;
+    margin-left: auto;
     font-size: 0.85em;
 }
     
