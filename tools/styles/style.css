@@ -1,21 +1,3 @@
-@charset "UTF-8";
-/*
-/// https://community.shopify.com/c/technical-q-a/how-to-apply-a-css-button-style-to-image-banner-of-main-page/td-p/1699641
-
-    consejos de daniel para tener en cuenta:
-
-    (mirar estas páginas para cómo tener código limpio)
-    -> https://www.php-fig.org/psr/psr-1/
-    -> https://www.php-fig.org/psr/psr-4/
-    -> https://www.php-fig.org/psr/psr-12/
-
-    > quitar comentarios del .scss que no aportan nada
-    > mejor indentación (si algo tiene un tabulado es porque debe tener un elemento padre)
-    > menos uso de & (nesting) en el .scss
-    > en el .html usar maximo 4 contenedores
-    > usar sections sólo en lo necesario, cuando tengas los necesarios, el resto hazlos con div y palante
-
-*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
   background-color: #ffffff;
@@ -706,17 +688,6 @@ body {
   background-color: #20292b;
 }
 
-/* 
-        consejos/indirectas de miguel y david (los que van al gym sierra)(igual te los encuetras jaja)
-        > para las media queries utiliza variables (<cantidad>px)
-        > investiga los mixins andresito / funciones en sass, te será útil
-        > investiga tambien lo de ::before, lo mencionó david
-        > investiga también lo de los keyframes, lo mencionó miguel
-    
-        consejo de miguel: ha mencionado el mobile first, las medias responsives hacia abajo (con min-width)
-        que se carguen los estilos para móvil lo primero, ya que cargan con datos inalámbricos/móviles/cobertura
-        a diferencia de los dispositivos de escritorio, que tienen una velocidad superior 
-    */
 @media only screen and (min-width: 640px) {
   .texto1,
   .contentBuildAnything,

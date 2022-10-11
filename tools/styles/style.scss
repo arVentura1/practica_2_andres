@@ -1,6 +1,6 @@
 //Color palette
 
-//Light Theme Palette
+// Light Theme Palette
 $light: #ffffff;
 $dark: #202223;
 $ultraLightWhite: #fafbfb;
@@ -19,28 +19,10 @@ $backgroundDark: #0d1213;
 $communityCardDark: #9db8f7;
 $footer2Bg: #20292b;
 
-//Media Queries Screen Sizes
+// Media Queries Screen Sizes
 $sizeTablet: 640px;
 $sizeDesktop: 960px;
 $sizeBiggerDesktop: 1281px;
-    
-/*
-/// https://community.shopify.com/c/technical-q-a/how-to-apply-a-css-button-style-to-image-banner-of-main-page/td-p/1699641
-
-    consejos de daniel para tener en cuenta:
-
-    (mirar estas páginas para cómo tener código limpio)
-    -> https://www.php-fig.org/psr/psr-1/
-    -> https://www.php-fig.org/psr/psr-4/
-    -> https://www.php-fig.org/psr/psr-12/
-
-    > quitar comentarios del .scss que no aportan nada
-    > mejor indentación (si algo tiene un tabulado es porque debe tener un elemento padre)
-    > menos uso de & (nesting) en el .scss
-    > en el .html usar maximo 4 contenedores
-    > usar sections sólo en lo necesario, cuando tengas los necesarios, el resto hazlos con div y palante
-
-*/
     
 //Document Font
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -52,7 +34,6 @@ body {
     line-height: 1.5;
 }
 
-//HEADER
 .bigHeader {
     background-color: $light;
     width: 100%;
@@ -60,6 +41,7 @@ body {
     top: 0;
     transition: 0.25s ease-in-out;
 }
+
 .bigHeader-dark {
     background-color: $backgroundDark;
 }
@@ -67,6 +49,7 @@ body {
 .marketing-nav-wrapper {
     margin: 0 auto;
 }
+
 .marketing-nav {
     height: 48px;
     display: flex;
@@ -78,10 +61,12 @@ body {
     position: relative;
     clear: both;
 }
+
 .marketing-nav-mobile {
     display: flex;
     align-items: center;
-}   
+}  
+
 .marketing-hamburger-button {
     margin-right: 16px;
     background: none;
@@ -90,33 +75,40 @@ body {
     cursor: pointer;
     color: $ultraLightGrey;
 }
+
 .marketing-nav-container {
     width: 100%;
     display: flex;
 }
+
 .marketing-nav-items,
 .searchBar,
 .marketing-nav-expanded {
     display: none;
 }
+
 .marketing-nav-items {
     margin-right: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 .search-nav {
     margin-left: auto;
 }
+
 .navButton {
     color: $ultraLightGrey;
     background-color: inherit;
     border: none;
     box-shadow: none;
 }
+
 .theme-toggle-container {
     position: relative;
 }
+
 .toggle-theme-light {
     background: none;
     margin: 0;
@@ -127,12 +119,13 @@ body {
     cursor: pointer;
     color: inherit;
 }
-//MAIN
+
 .bigMain {
     background-color: $light;
     color: $dark;
     transition: 0.25s ease-in-out;
 }
+
 .bigMain-dark {
     background-color: $backgroundDark;
     color: $light;
@@ -147,6 +140,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
     gap: 4rem;
 }
+
 .texto1 {
     max-width: 640px;
     padding-left: 1rem;
@@ -168,6 +162,7 @@ body {
         color: $midGrey;
     }
 }
+
 .texto1-dark h1,
 .texto1-dark p {
     color: $light;
@@ -210,6 +205,7 @@ body {
 .texto-dark span {
     color: $light;
 }
+
 .texto-dark a {
     color: $blueForLinks;
 } 
@@ -294,6 +290,7 @@ body {
         margin-bottom: 2rem;
     }
 }
+
 .laText {
     font-weight: 400;
     margin-bottom: 2rem;
@@ -407,7 +404,6 @@ body {
     padding: 0.75rem;
     //padding: 0 1rem 1rem 0;
 }
-
 
 .firstFoto {
     width: 161px;
@@ -627,20 +623,7 @@ body {
 .footer2-dark {
     background-color: $footer2Bg;
 }
-
-    //MediaQueries
-    /* 
-        consejos/indirectas de miguel y david (los que van al gym sierra)(igual te los encuetras jaja)
-        > para las media queries utiliza variables (<cantidad>px)
-        > investiga los mixins andresito / funciones en sass, te será útil
-        > investiga tambien lo de ::before, lo mencionó david
-        > investiga también lo de los keyframes, lo mencionó miguel
-    
-        consejo de miguel: ha mencionado el mobile first, las medias responsives hacia abajo (con min-width)
-        que se carguen los estilos para móvil lo primero, ya que cargan con datos inalámbricos/móviles/cobertura
-        a diferencia de los dispositivos de escritorio, que tienen una velocidad superior 
-    */
-    
+ 
 @media only screen and (min-width: $sizeTablet) {
     .texto1,
     .contentBuildAnything,
@@ -992,20 +975,12 @@ body {
         max-width: calc(1268px/2);
     }
 
-    .texto1 {
-        //margin-left: 1rem;
-        & p {
-            margin-bottom: 2rem;
-        }
+    .texto1 p {
+        margin-bottom: 2rem;
     }
-
-    //.texto {
-        //margin-left: 1rem;
-    //}
 
     .startBuilding {
         margin: 0;
-        //margin-left: 1rem;
         padding: 0 2rem;
     }
 
@@ -1018,13 +993,11 @@ body {
         display: block;
     }
 
-    .bigImg {
-        & img {
-            width:100%;
-            height: 1128px;
-            object-fit: cover;
-            object-position: 1px center;
-        }
+    .bigImg img {
+        width:100%;
+        height: 1128px;
+        object-fit: cover;
+        object-position: 1px center;
     }
 
     .fotogr {
