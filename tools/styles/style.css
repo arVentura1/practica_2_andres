@@ -626,7 +626,7 @@ body {
   list-style-type: none;
   position: relative;
   padding: 0;
-  margin: 0 1.25rem;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -992,46 +992,56 @@ body {
   .innerFooter2 {
     padding: 0 2%;
   }
-  .body-dark {
-    background-color: #0d1213;
-  }
-  .tag-dark {
-    color: #ffffff;
-  }
-  .gTag-dark {
-    color: gray;
-  }
-  .blueBorders-dark {
-    background-color: #151d1e;
-    border: 1px solid #9db8f7;
-  }
-  .greenBorders-dark {
-    border: 1px solid #24393d;
-    background-color: #151d1e;
-    -webkit-box-shadow: #151d1e 0px 1px 0px 2px;
-            box-shadow: #151d1e 0px 1px 0px 2px;
-  }
-  .laBorders-dark {
-    border: 2px solid #8cfb80;
-    background-color: #0d1213;
-  }
-  .bigFooter-dark {
-    background-color: #0d1213;
-  }
-  .footer1-dark {
-    background-color: #151d1e;
-  }
-  .lf1Element-dark a {
-    color: #ffffff;
-  }
-  .footer2-dark {
-    background-color: #20292b;
-  }
+  /*
+    .body-dark {
+        background-color: $backgroundDark;
+    }
+
+    .tag-dark {
+        color: $light;
+    }
+
+    .gTag-dark {
+        color: $grey;
+    }
+
+    .blueBorders-dark {
+        background-color: $featureBackgroundDark;
+        border: 1px solid $communityCardDark;
+    }
+
+    .greenBorders-dark {
+        border: 1px solid $thinGreenBorderDark;
+        background-color: $featureBackgroundDark;
+        box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
+    } 
+
+    .laBorders-dark {
+        border: 2px solid $thickGreenBorderDark;
+        background-color: $backgroundDark;
+    }
+
+    .bigFooter-dark {
+        background-color: $backgroundDark;
+    }
+
+    .footer1-dark {
+        background-color: $featureBackgroundDark;
+    }
+
+    .lf1Element-dark a {
+        color: $light;
+    }
+
+    .footer2-dark {
+        background-color: $footer2Bg;
+    }
+    */
 }
 
 @media only screen and (min-width: 1281px) {
   .marketing-nav-container {
-    max-width: calc(1315px + 1rem);
+    max-width: calc(1325px + 1rem);
   }
   .searchIcon {
     display: none;
@@ -1105,18 +1115,11 @@ body {
     margin-top: 7.5rem;
     max-width: calc(1268px/2);
   }
-  .texto1 {
-    margin-left: 1%;
-  }
   .texto1 p {
     margin-bottom: 2rem;
   }
-  .texto {
-    margin-left: 1%;
-  }
   .startBuilding {
     margin: 0;
-    margin-left: 1%;
     padding: 0 2rem;
   }
   .features {
@@ -1185,44 +1188,54 @@ body {
   .innerFooter2 {
     padding: 0;
   }
-  .body-dark {
-    background-color: #0d1213;
-  }
-  .tag-dark {
-    color: #ffffff;
-  }
-  .gTag-dark {
-    color: gray;
-  }
-  .blueBorders-dark {
-    background-color: #151d1e;
-    border: 1px solid #9db8f7;
-  }
-  .greenBorders-dark {
-    border: 1px solid #24393d;
-    background-color: #151d1e;
-    -webkit-box-shadow: #151d1e 0px 1px 0px 2px;
-            box-shadow: #151d1e 0px 1px 0px 2px;
-  }
-  .biggerSearch-dark {
-    border: 1px solid #24393d;
-    background-color: #151d1e;
-  }
-  .laBorders-dark {
-    border: 2px solid #8cfb80;
-    background-color: #0d1213;
-  }
-  .bigFooter-dark {
-    background-color: #0d1213;
-  }
-  .footer1-dark {
-    background-color: #151d1e;
-  }
-  .lf1Element-dark a {
-    color: #ffffff;
-  }
-  .footer2-dark {
-    background-color: #20292b;
-  }
+  /*
+    .body-dark {
+        background-color: $backgroundDark;
+    }
+
+    .tag-dark {
+        color: $light;
+    }
+
+    .gTag-dark {
+        color: $grey;
+    }
+
+    .blueBorders-dark {
+        background-color: $featureBackgroundDark;
+        border: 1px solid $communityCardDark;
+    }
+
+    .greenBorders-dark {
+        border: 1px solid $thinGreenBorderDark;
+        background-color: $featureBackgroundDark;
+        box-shadow: $featureBackgroundDark 0px 1px 0px 2px;
+    } 
+    .biggerSearch-dark {
+        border: 1px solid $thinGreenBorderDark;
+        background-color: $featureBackgroundDark;
+    }
+
+    .laBorders-dark {
+        border: 2px solid $thickGreenBorderDark;
+        background-color: $backgroundDark;
+    }
+
+    .bigFooter-dark {
+        background-color: $backgroundDark;
+    }
+
+    .footer1-dark {
+        background-color: $featureBackgroundDark;
+    }
+
+    .lf1Element-dark a {
+        color: $light;
+    }
+    
+    .footer2-dark {
+        background-color: $footer2Bg;
+    }
+    */
 }
 /*# sourceMappingURL=style.css.map */

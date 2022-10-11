@@ -574,7 +574,7 @@ body {
     list-style-type: none;
     position: relative;
     padding: 0;
-    margin: 0 1.25rem;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -969,6 +969,7 @@ body {
         padding: 0 2%;
     }
 
+    /*
     .body-dark {
         background-color: $backgroundDark;
     }
@@ -1012,11 +1013,12 @@ body {
     .footer2-dark {
         background-color: $footer2Bg;
     }
+    */
 }
 
 @media only screen and (min-width: $sizeBiggerDesktop) {
     .marketing-nav-container {
-        max-width: calc(1315px + 1rem);
+        max-width: calc(1325px + 1rem);
     }
 
     .searchIcon {
@@ -1089,19 +1091,19 @@ body {
     }
 
     .texto1 {
-        margin-left: 1%;
+        //margin-left: 1rem;
         & p {
             margin-bottom: 2rem;
         }
     }
 
     .texto {
-        margin-left: 1%;
+        //margin-left: 1rem;
     }
 
     .startBuilding {
         margin: 0;
-        margin-left: 1%;
+        //margin-left: 1rem;
         padding: 0 2rem;
     }
 
@@ -1189,6 +1191,7 @@ body {
         padding: 0;
     }
 
+    /*
     .body-dark {
         background-color: $backgroundDark;
     }
@@ -1236,4 +1239,6 @@ body {
     .footer2-dark {
         background-color: $footer2Bg;
     }
+    */
+
 }
