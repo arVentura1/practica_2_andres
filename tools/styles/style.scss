@@ -592,7 +592,7 @@ body {
         text-decoration: none;
         color: #6d7175;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 700;
     }
 }
     
@@ -811,6 +811,7 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        transition: 0.75s ease-in-out;
     }
 
     .toggle-theme-dark {
@@ -821,6 +822,7 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        transition: 0.75s ease-in-out;
     }
     
     .dropdownButton {
@@ -1028,7 +1030,7 @@ body {
         display: block;
         //width:100%;
         //height: 1128px;
-        border: 1px solid red;
+        //border: 1px solid red;
     }
 
     .bigImg {

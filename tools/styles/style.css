@@ -662,7 +662,7 @@ body {
   text-decoration: none;
   color: #6d7175;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .body-dark {
@@ -869,6 +869,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-transition: 0.75s ease-in-out;
+    transition: 0.75s ease-in-out;
   }
   .toggle-theme-dark {
     margin: 0.5rem;
@@ -878,6 +880,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-transition: 0.75s ease-in-out;
+    transition: 0.75s ease-in-out;
   }
   .dropdownButton {
     margin-left: 0.5rem;
@@ -1059,7 +1063,6 @@ body {
     -ms-grid-column-align: start;
         justify-self: start;
     display: block;
-    border: 1px solid red;
   }
   .bigImg img {
     width: 100%;
