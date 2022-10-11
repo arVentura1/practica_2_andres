@@ -19,11 +19,11 @@ body {
   background-color: #0d1213;
 }
 
-.marketing-nav-wrapper {
+.headerContainer {
   margin: 0 auto;
 }
 
-.marketing-nav {
+.navBar {
   height: 48px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,7 +42,7 @@ body {
   clear: both;
 }
 
-.marketing-nav-mobile {
+.navMobile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,7 +51,7 @@ body {
           align-items: center;
 }
 
-.marketing-hamburger-button {
+.hamburgerButton {
   margin-right: 16px;
   background: none;
   border: 0;
@@ -60,20 +60,20 @@ body {
   color: #6d7175;
 }
 
-.marketing-nav-container {
+.navContainer {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.marketing-nav-items,
+.navList,
 .searchBar,
-.marketing-nav-expanded {
+.navExpanded {
   display: none;
 }
 
-.marketing-nav-items {
+.navList {
   margin-right: auto;
   list-style-type: none;
   margin: 0;
@@ -748,23 +748,23 @@ body {
 }
 
 @media only screen and (min-width: 960px) {
-  .marketing-hamburger-button,
+  .hamburgerButton,
   .navButton {
     display: none;
   }
-  .marketing-nav-items,
+  .navList,
   .searchBar,
-  .marketing-nav-expanded {
+  .navExpanded {
     display: block;
   }
-  .marketing-nav {
+  .navBar {
     font-size: 0.875rem;
     padding: 0 1rem;
   }
-  .marketing-nav-logo {
+  .navLogo {
     margin-top: 3px;
   }
-  .marketing-nav-container {
+  .navContainer {
     height: 48px;
     max-width: calc(1268px + 1rem);
     -webkit-box-align: center;
@@ -776,20 +776,20 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .marketing-nav-items {
+  .navList {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0;
     padding: 0;
   }
-  .marketing-nav-item {
+  .navItem {
     margin-left: 0.5rem;
     padding-right: 0.75rem;
     text-decoration: none;
     color: #5c5f62;
   }
-  .marketing-nav-item-dark {
+  .navItem-dark {
     color: #ffffff;
   }
   .bigSearchButton {
@@ -806,7 +806,7 @@ body {
   .slashCont {
     display: none;
   }
-  .marketing-nav-expanded {
+  .navExpanded {
     padding-left: 0;
     list-style-type: none;
     display: -webkit-box;
@@ -816,12 +816,12 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .marketing-nav-expanded a {
+  .navExpanded a {
     color: #5c5f62;
     text-decoration: none;
     padding: 0.5rem;
   }
-  .marketing-nav-expanded-dark a {
+  .navExpanded-dark a {
     color: #ffffff;
   }
   .theme-toggle-container {
@@ -940,7 +940,7 @@ body {
 }
 
 @media only screen and (min-width: 1281px) {
-  .marketing-nav-container {
+  .navContainer {
     max-width: calc(1325px + 1rem);
   }
   .searchIcon {

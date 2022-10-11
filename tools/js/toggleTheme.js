@@ -42,9 +42,9 @@ $(function(){
        }
 
        $(".bigHeader").toggleClass("bigHeader-dark");
-       $(".marketing-hamburger-button").toggleClass("marketing-hamburger-button-dark");
-       $(".marketing-nav-item").toggleClass("marketing-nav-item-dark");
-       $(".marketing-nav-expanded").toggleClass("marketing-nav-expanded-dark");
+       $(".navContainer").toggleClass("navContainer-dark");
+       $(".navItem").toggleClass("navItem-dark");
+       $(".navExpanded").toggleClass("navExpanded-dark");
        $(".dropdownButton").toggleClass("dropdownButton-dark");
        $(".dropdownArrow").toggleClass("dropdownArrow-dark");
        $(".biggerSearch").toggleClass("biggerSearch-dark");
@@ -58,7 +58,6 @@ $(function(){
        $(".bigMain").toggleClass("bigMain-dark");
        $(".texto1").toggleClass("texto1-dark");
        $(".texto").toggleClass("texto-dark");
-       $(".marketing-nav-container").toggleClass("marketing-nav-container-dark");
        $(".laBorders").toggleClass("laBorders-dark");
        $(".laText").toggleClass("laText-dark");
        $(".revHearts").attr('src','./tools/img/heartsDark.png');
