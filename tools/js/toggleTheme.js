@@ -33,12 +33,20 @@ $(function(){
               $(".biggerFoto").attr('src','./tools/img/dayPhoto.png');
        }
        
-       
-       
+       //general styles for dark theme
        //header
        $(".bigHeader").toggleClass("bigHeader-dark");
        $(".marketing-hamburger-button").toggleClass("marketing-hamburger-button-dark");
-       $(".shopifyLogotype").attr('src','./tools/icons/shopifyDevDark.png');
+       
+       //toggle shopify logo header
+       if (!$(".shopifyLogotype").hasClass(".logo-dark")) {
+              $(".shopifyLogotype").addClass(".logo-dark");
+              $(".shopifyLogotype").attr('src','./tools/icons/shopifyDevDark.png');
+       }
+       else {
+              $(".shopifyLogotype").removeClass(".logo-dark");
+              $(".shopifyLogotype").attr('src','./tools/icons/shopifyDev.png');
+       }
        $(".marketing-nav-item").toggleClass("marketing-nav-item-dark");
        $(".marketing-nav-expanded").toggleClass("marketing-nav-expanded-dark");
        $(".dropdownButton").toggleClass("dropdownButton-dark");
