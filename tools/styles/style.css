@@ -424,10 +424,10 @@ body {
 }
 
 .community {
-  -webkit-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
   padding: 0 1rem 3.75rem;
   margin: 0 0;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .communityContainer {
@@ -534,9 +534,9 @@ body {
 }
 
 .bigFooter {
+  background-color: #fafbfb;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
-  background-color: #fafbfb;
 }
 
 .footer1 {
@@ -869,8 +869,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    -webkit-transition: 0.75s ease-in-out;
-    transition: 0.75s ease-in-out;
+    -webkit-transition: 0.55s ease-in-out;
+    transition: 0.55s ease-in-out;
   }
   .toggle-theme-dark {
     margin: 0.5rem;
@@ -880,8 +880,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    -webkit-transition: 0.75s ease-in-out;
-    transition: 0.75s ease-in-out;
+    -webkit-transition: 0.55s ease-in-out;
+    transition: 0.55s ease-in-out;
   }
   .dropdownButton {
     margin-left: 0.5rem;

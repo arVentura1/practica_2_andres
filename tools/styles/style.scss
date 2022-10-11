@@ -377,9 +377,9 @@ body {
 }
     
 .community {
-    transition: 0.25s ease-in-out;
     padding: 0 1rem 3.75rem;
     margin: 0 0;
+    transition: 0.25s ease-in-out;
 }
     
 .communityContainer {
@@ -465,20 +465,9 @@ body {
 }
 
 .innerTitle {
-    //¿¿¿¿¿?????
-    //display: flex;
-    //flex-wrap: nowrap;
-    //align-items: center;
-    //justify-content: flex-start;
-    //¿¿¿¿¿?????
     &::after {
         content: '->';
-        //position: relative;
-        //margin-left: 0.3125rem;
         white-space: nowrap;
-        //width: 20px;
-        //height: 20px;
-        //object-fit: cover;
     }
 }
 
@@ -488,8 +477,8 @@ body {
 }
     
 .bigFooter {
-    transition: 0.25s ease-in-out;
     background-color: $ultraLightWhite;
+    transition: 0.25s ease-in-out;
 }
 .footer1 {
     background-color: $ultraLightWhite;
@@ -811,7 +800,7 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        transition: 0.75s ease-in-out;
+        transition: 0.55s ease-in-out;
     }
 
     .toggle-theme-dark {
@@ -822,7 +811,7 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        transition: 0.75s ease-in-out;
+        transition: 0.55s ease-in-out;
     }
     
     .dropdownButton {
