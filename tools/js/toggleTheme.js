@@ -60,6 +60,8 @@ $(function(){
        $(".texto").toggleClass("texto-dark");
        $(".laBorders").toggleClass("laBorders-dark");
        $(".laText").toggleClass("laText-dark");
+       $(".laRevenue").toggleClass("laRevenue-dark");
+       $(".revContainer").toggleClass("revContainer-dark");
        $(".revHearts").attr('src','./tools/img/heartsDark.png');
        
        $(".bigFooter").toggleClass("bigFooter-dark");

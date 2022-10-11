@@ -1028,6 +1028,18 @@ body {
         padding: 4rem 4rem;
         grid-template-columns: repeat(1, 1fr);
     }
+    
+    .laRevenue-dark {
+        border-radius: 8px;
+        border: none;
+        box-shadow: none;
+        background: none;
+    }
+
+    .revContainer-dark {
+        border-radius: 8px;
+        box-shadow: none;
+    }
 
     .communityContainer {
         max-width: 1268px;

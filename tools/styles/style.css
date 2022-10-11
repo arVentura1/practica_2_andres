@@ -1065,6 +1065,18 @@ body {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
+  .laRevenue-dark {
+    border-radius: 8px;
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background: none;
+  }
+  .revContainer-dark {
+    border-radius: 8px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
   .communityContainer {
     max-width: 1268px;
     padding-top: 1.5rem;
