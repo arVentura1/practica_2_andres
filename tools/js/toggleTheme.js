@@ -5,11 +5,36 @@ $(function(){
     $(".toggle-theme-light").click(function(){
        //dark/light icon
        $(".toggle-theme-light").toggleClass("toggle-theme-dark");
-       //img src but dark mode
-       $(".fotoG1").attr('src','./tools/img/night1mobile.png');
-       $(".fotoG2").attr('src','./tools/img/night2mobile.png');
-       $(".fotoG3").attr('src','./tools/img/night3mobile.png');
-       $(".biggerFoto").attr('src','./tools/img/nightPhoto.png');
+       
+       //si no tiene la clase de darkImg añadirle el tag y poner las fotos en modo oscuro
+       if (!$(".fotoG").hasClass("darkImg")) {
+              //img src but dark mode
+              $(".fotoG1").addClass("darkImg");
+              $(".fotoG2").addClass("darkImg");
+              $(".fotoG3").addClass("darkImg");
+              $(".biggerFoto").addClass("darkImg");
+              //
+              $(".fotoG1").attr('src','./tools/img/night1mobile.png');
+              $(".fotoG2").attr('src','./tools/img/night2mobile.png');
+              $(".fotoG3").attr('src','./tools/img/night3mobile.png');
+              $(".biggerFoto").attr('src','./tools/img/nightPhoto.png');
+       }
+       //si tiene la clase img, quitarsela y poner los elementos img daylight
+       else {
+              //img src but light mode
+              $(".fotoG1").removeClass("darkImg");
+              $(".fotoG2").removeClass("darkImg");
+              $(".fotoG3").removeClass("darkImg");
+              $(".biggerFoto").removeClass("darkImg");
+              //
+              $(".fotoG1").attr('src','./tools/img/day1mobile.png');
+              $(".fotoG2").attr('src','./tools/img/day2mobile.png');
+              $(".fotoG3").attr('src','./tools/img/day3mobile.png');
+              $(".biggerFoto").attr('src','./tools/img/dayPhoto.png');
+       }
+       
+       
+       
        //header
        $(".bigHeader").toggleClass("bigHeader-dark");
        $(".marketing-hamburger-button").toggleClass("marketing-hamburger-button-dark");
@@ -43,7 +68,6 @@ $(function(){
        $(".lf1Element").toggleClass("lf1Element-dark");
        $(".footer2").toggleClass("footer2-dark");
 
-       
        /*
             Propiedades a editar:
 
@@ -70,7 +94,5 @@ $(function(){
                     - el fondo pasa de grey a uno verdecito
                     - las letras creo que no pasan 
         */
-
-
     });
 });

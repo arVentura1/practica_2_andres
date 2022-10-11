@@ -1,17 +1,6 @@
 @charset "UTF-8";
-/* 
-    >>>>> (min-width: 1280px)
-    > .bigMain será un grid con 2 columnas en el que 
-      .biggerDesktopFirstColumn será la primera columna (.fotogr / .fotoG pasarán a ser display: none)
-      la segunda columna será .biggerDesktopSecondColumn
-    > 
-----------------------------------------------------------------------------------------------
-
-///
+/*
 /// https://community.shopify.com/c/technical-q-a/how-to-apply-a-css-button-style-to-image-banner-of-main-page/td-p/1699641
-/// 
-
-
 
     consejos de daniel para tener en cuenta:
 
@@ -40,6 +29,8 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .bigHeader-dark {
@@ -137,6 +128,8 @@ body {
 .bigMain {
   background-color: #ffffff;
   color: #202223;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .bigMain-dark {
@@ -422,6 +415,8 @@ body {
 }
 
 .community {
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
   padding: 0 1rem 3.75rem;
   margin: 0 0;
 }
@@ -530,6 +525,8 @@ body {
 }
 
 .bigFooter {
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
   background-color: #fafbfb;
 }
 
@@ -629,7 +626,7 @@ body {
   list-style-type: none;
   position: relative;
   padding: 0;
-  margin: 0 auto;
+  margin: 0 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
