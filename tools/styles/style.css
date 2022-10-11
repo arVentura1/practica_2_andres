@@ -373,7 +373,7 @@ body {
   display: grid;
   -ms-grid-columns: 3rem 1fr;
       grid-template-columns: 3rem 1fr;
-  gap: 1.5rem;
+  gap: 1.1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -452,12 +452,8 @@ body {
   max-width: 100%;
   background-color: #f4f6ff;
   height: 8.5rem;
-  padding: 0.75rem;
   border-radius: 8px;
-}
-
-.ifc {
-  padding: 0 1rem 1rem 0;
+  padding: 0.75rem;
 }
 
 .firstFoto {
@@ -1083,18 +1079,18 @@ body {
   .laContainer {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
+    gap: 1rem;
     max-width: 1268px;
     margin-left: auto;
     margin-right: auto;
   }
   .laRevenue {
-    width: 65%;
+    width: 67%;
     margin: 0;
     margin-left: auto;
   }
   .revContainer {
-    padding: 3.5rem 4rem;
+    padding: 4rem 4rem;
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
@@ -1107,6 +1103,7 @@ body {
         grid-template-columns: repeat(4, 1fr);
   }
   .firstText {
+    padding-right: 0.5rem;
     font-size: 20px;
   }
   .footer2 {

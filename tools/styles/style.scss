@@ -339,7 +339,7 @@ body {
 .revSection {
     display: grid;
     grid-template-columns: 3rem 1fr;
-    gap: 1.5rem;
+    gap: 1.1rem;
     align-items: center;
     margin-bottom: 0;
 }
@@ -402,13 +402,12 @@ body {
     max-width: 100%;
     background-color: $ultraLightBlue;
     height: 8.5rem;
-    padding: 0.75rem;
+    //padding: 0.75rem;
     border-radius: 8px;
+    padding: 0.75rem;
+    //padding: 0 1rem 1rem 0;
 }
 
-.ifc {
-    padding: 0 1rem 1rem 0;
-}
 
 .firstFoto {
     width: 161px;
@@ -1040,20 +1039,20 @@ body {
 
     .laContainer {
         grid-template-columns: repeat(2, 1fr);
-        gap: 4rem;
+        gap: 1rem;
         max-width: 1268px;
         margin-left: auto;
         margin-right: auto;
     }
 
     .laRevenue {
-        width: 65%;
+        width: 67%;
         margin: 0;
         margin-left: auto;
     }
 
     .revContainer {
-        padding: 3.5rem 4rem;
+        padding: 4rem 4rem;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -1067,6 +1066,7 @@ body {
     }
 
     .firstText {
+        padding-right: 0.5rem;
         font-size: 20px;
     }
 
