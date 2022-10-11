@@ -59,7 +59,7 @@ $(function(){
        $(".gTag").toggleClass("gTag-dark");
        $(".greenBorders").toggleClass("greenBorders-dark");
        $(".blueBorders").toggleClass("blueBorders-dark");
-       //$(".navButton").toggleClass("navButton-dark");
+
        //main
        $(".bigMain").toggleClass("bigMain-dark");
        $(".texto1").toggleClass("texto1-dark");
@@ -75,32 +75,5 @@ $(function(){
        $(".footer1").toggleClass("footer1-dark");
        $(".lf1Element").toggleClass("lf1Element-dark");
        $(".footer2").toggleClass("footer2-dark");
-
-       /*
-            Propiedades a editar:
-
-            //header
-             -> textos: color pasa a ser de dark a light
-             -> iconos: color pasa a ser de dark a light (.dev, dropwdownArrow, lupa)
-            //main
-             -> (sustituir la equiqueta img por otra(?) / o quizá mejor cambiar la propiedad y por tanto el elemento)
-             -> textos:
-                    - headings pasan de dark a light
-                    - textos pasan de dark a light
-                    - enlaces pasan de midGrey a un azul (revisar color)
-             -> box-shadows pasan del color que tenga a uno verde (revisar color original) 
-             -> launchApps (fondito verde): 
-                    - la parte blanca y verde pasan a ser dark
-                    - textos light
-                    - de laRevenue, el box shadow desaparece, aparece un borde fino verde con radio de algunos px
-             -> community:
-                    - textos light, fondos dark
-                    - las box shadows desaparecen por un fondo verde fino
-            //footer
-             -> letras pasan de dark a light
-             -> en footer2:
-                    - el fondo pasa de grey a uno verdecito
-                    - las letras creo que no pasan 
-        */
     });
 });

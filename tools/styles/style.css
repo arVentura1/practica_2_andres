@@ -1176,7 +1176,8 @@ body {
     border-radius: 0 0 1rem 1rem;
     margin-bottom: 0.25rem;
   }
-  .footer1Container, .footer2Container {
+  .footer1Container,
+  .footer2Container {
     max-width: 1268px;
     margin-right: auto;
     margin-left: auto;
